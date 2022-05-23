@@ -47,12 +47,24 @@ class HomeAlumnoController extends Controller
             $resp1 = $resp1.$request->resp1;
         }
 
-        if($request->resp2 != ""){
-            $resp1 = $resp1.','.$request->resp2;
+        if($resp1!= ""){
+            if($request->resp2 != ""){
+                $resp1 = $resp1.','.$request->resp2;
+            }
+        }else{
+            if($request->resp2 != ""){
+                $resp1 = $request->resp2;
+            }
         }
-
-        if($request->resp3 != ""){
-            $resp1 = $resp1.','.$request->resp3;
+       
+        if($resp1 != ""){
+            if($request->resp3 != ""){
+                $resp1 = $resp1.','.$request->resp3;
+            }
+        }else{
+            if($request->resp3 != ""){
+                $resp1 = $request->resp3;
+            }
         }
 
         if($resp1 == $request->correcta1){
@@ -65,12 +77,24 @@ class HomeAlumnoController extends Controller
             $resp2 = $resp2.$request->resp4;
         }
 
-        if($request->resp5 != ""){
-            $resp2 = $resp2.','.$request->resp5;
-        }
+       if($resp2 != ""){
+            if($request->resp5 != ""){
+                $resp2 = $resp2.','.$request->resp5;
+            }
+       }else{
+            if($request->resp5 != ""){
+                $resp2 = $request->resp5;
+            }
+       }
 
-        if($request->resp6 != ""){
-            $resp2 = $resp2.','.$request->resp6;
+        if($resp2 != ""){
+            if($request->resp6 != ""){
+                $resp2 = $resp2.','.$request->resp6;
+            }
+        }else{
+            if($request->resp6 != ""){
+                $resp2 = $request->resp6;
+            }
         }
 
         if($resp2 == $request->correcta2){
@@ -84,12 +108,24 @@ class HomeAlumnoController extends Controller
             $resp3 = $resp3.$request->resp7;
         }
 
-        if($request->resp8 != ""){
-            $resp3 = $resp3.','.$request->resp8;
+        if($resp3 != ""){
+            if($request->resp8 != ""){
+                $resp3 = $resp3.','.$request->resp8;
+            }
+        }else{
+            if($request->resp8 != ""){
+                $resp3 = $request->resp8;
+            }
         }
 
-        if($request->resp9 != ""){
-            $resp3 = $resp3.','.$request->resp9;
+        if($resp3 != ""){
+            if($request->resp9 != ""){
+                $resp3 = $resp3.','.$request->resp9;
+            }
+        }else{
+            if($request->resp9 != ""){
+                $resp3 = $request->resp9;
+            }
         }
 
         if($resp3 == $request->correcta3){
@@ -103,12 +139,24 @@ class HomeAlumnoController extends Controller
             $resp4 = $resp4.$request->resp10;
         }
 
-        if($request->resp11 != ""){
-            $resp4 = $resp4.','.$request->resp11;
+        if($resp4 != ""){
+            if($request->resp11 != ""){
+                $resp4 = $resp4.','.$request->resp11;
+            }
+        }else{
+            if($request->resp11 != ""){
+                $resp4 = $request->resp11;
+            }
         }
 
-        if($request->resp12 != ""){
-            $resp4 = $resp4.','.$request->resp12;
+        if($resp4 != ""){
+            if($request->resp12 != ""){
+                $resp4 = $resp4.','.$request->resp12;
+            }
+        }else{
+            if($request->resp12 != ""){
+                $resp4 = $request->resp12;
+            }
         }
 
         if($resp4 == $request->correcta4){
@@ -122,13 +170,25 @@ class HomeAlumnoController extends Controller
             $resp5 = $resp5.$request->resp13;
         }
 
-        if($request->resp14 != ""){
-            $resp5 = $resp5.','.$request->resp14;
+        if($resp5 != ""){
+            if($request->resp14 != ""){
+                $resp5 = $resp5.','.$request->resp14;
+            }
+        }else{
+            if($request->resp14 != ""){
+                $resp5 = $request->resp14;
+            }
         }
 
-        if($request->resp15 != ""){
-            $resp5 = $resp5.','.$request->resp15;
-        }
+       if($resp5 != ""){
+            if($request->resp15 != ""){
+                $resp5 = $resp5.','.$request->resp15;
+            }
+       }else{
+            if($request->resp15 != ""){
+                $resp5 = $request->resp15;
+            }
+       }
 
         if($resp5 == $request->correcta5){
             $correctas++;
