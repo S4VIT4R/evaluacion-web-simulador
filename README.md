@@ -5,7 +5,7 @@
 <h3>Materia: <p> Taller de programación web</p> </h3>
 <h3>Alumno: <p> Jonathan Gaudencio Salvador Tolentino </p></h3>
 
-## About this project
+## Acerca del proyecto
 
 Este proyecto fue propuesto por el docente de la materia de taller de programación web, para evaluación misma de la materia, consiste en crear un sistema que sea capaz de realizar un simulador de exámenes, con las siguientes características:
 
