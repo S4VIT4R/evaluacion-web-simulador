@@ -19,12 +19,12 @@ Este proyecto fue propuesto por el docente de la materia de taller de programaci
 <br>
 <b>4. El sistema podrá dejar al docente dar de alta exámenes, preguntas, además que el docente podrá eliminar sus exámenes o editarlos, de tal forma que puede agregar más preguntas una vez creado el examen, así mismo editar preguntas o eliminarlas, así mismo al docente solo le deben aparecer los exámenes creados por él.</b>
 <br>
-<b>4. El alumno tendrá su Home Alumno.</b>
+<b>5. El alumno tendrá su Home Alumno.</b>
 <br>
-<b>5. El alumno tendrá una vista dónde podrá ver los exámenes disponibles para poder contestarlos.</b>
+<b>6. El alumno tendrá una vista dónde podrá ver los exámenes disponibles para poder contestarlos.</b>
 <br>
-<b>6. El sistema solo presentará un total de 5 preguntas por cada examen al alumno.</b>
+<b>7. El sistema solo presentará un total de 5 preguntas por cada examen al alumno.</b>
 <br>
-<b>7. El sistema llevará un control de que examen respondió el alumno, así mismo el número de intentos, promedio general y las calificaciones por intento que obtuvo de cada examen.</b>
+<b>8. El sistema llevará un control de que examen respondió el alumno, así mismo el número de intentos, promedio general y las calificaciones por intento que obtuvo de cada examen.</b>
 <br>
-<b>8. El sistema podrá generar un PDF de los resultados obtenidos, esta opción estará disponible tanto para el docente como para el alumno.</b>
+<b>9. El sistema podrá generar un PDF de los resultados obtenidos, esta opción estará disponible tanto para el docente como para el alumno.</b>
